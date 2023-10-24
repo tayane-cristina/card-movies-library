@@ -1,0 +1,159 @@
+body {
+  background-color: rgba(0, 0, 0, 0.932);
+  color: white;
+}
+
+.father {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: baseline;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.925);
+  color: black;
+  border-bottom-left-radius: 55px;
+  border-bottom-right-radius: 55px;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: baseline;
+  margin: 30px;
+}
+
+li {
+  margin-top: 8px;
+  margin-top: 10px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: wrap;
+  width: 15%;
+  border-radius: 5px;
+
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 15px;
+}
+
+img {
+  width: 15rem;
+  height: 35vh;
+  border-radius: 5px;
+}
+
+.genre {
+  background-color: rgb(126, 114, 114);
+  color: aliceblue;
+  border-radius: 3px;
+  padding: 5px 5px;
+  text-transform: uppercase;
+}
+
+.rating::before{
+  content: "\2605";
+}
+
+.HD {
+  color: red;
+}
+
+
+.form-search {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.BTN-input {
+  width: 70%;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+} 
+
+.perform-search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: brown;
+  
+  
+}
+.select-genre {
+  background-color: rgb(2, 2, 2);
+  color: white;
+  height: 4vh;
+  width: 15vw;
+  border-radius: 10px;
+  font-family: monospace;
+  padding-left: 20px;
+}
+
+.input-search {
+  padding-left: 20px;
+  width: 60vw;
+  height: 4vh;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  font-family:monospace;
+}
+
+.button-search {
+  width: 6vw;
+  height: 4.5vh;
+  border-radius: 5px;
+  border: 2px solid white;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  font-family: monospace;
+} 
+.button-search:hover {
+  border: 2px solid black;
+}
+
+.button-search::before {
+  content: '\1F50D';
+}
+
+
+
+.create-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: rgba(53, 50, 50, 0.596);
+  color: rgb(255, 255, 255);
+
+}
+
+.make-card {
+  padding: 15px 5px;
+  width: 30vw;
+  height: 2vh;
+  margin: 10px;
+  font-size: 20px;
+}
